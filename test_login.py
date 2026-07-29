@@ -27,6 +27,7 @@ WebDriverWait(driver, 10).until(
 assert "inventory" in driver.current_url, "Login failed!"
 
 print("✅ Login Test Passed")
+print("login sucess")
 
 time.sleep(5)
 driver.quit()
